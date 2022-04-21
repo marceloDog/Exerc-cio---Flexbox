@@ -1,0 +1,130 @@
+* {
+    font-family: 'Open Sans';
+}
+
+body {
+    height: 100vh;
+    background-color: rgba(229, 229, 229, 1);
+}
+
+header {
+    width: 80%;
+    height: 450px;
+    background-color: rgba(29, 83, 158, 1);
+    margin: 0 auto;
+}
+
+.tit {
+    font-weight: 600;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+
+.sub-tit {
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin-top: -100px;
+    letter-spacing: 1px;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    margin-top: -130px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item1 {
+    width: 355px;
+    height: 470px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.free {
+    padding-top: 15px;
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+.valor {
+    font-size: 28px;
+    padding-left: 25px;
+    padding-right: 20px;
+    font-weight: 900;
+}
+
+.mes {
+    font-size: 20px;
+    color: rgba(130, 135, 153, 1);
+}
+
+.texto {
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+.linha {
+    border: 0.01px SOLID rgb(245, 244, 244);
+    width: 80%;
+}
+
+#assets {
+    padding-left: 25px;
+}
+
+#botao {
+    width: 296px;
+    height: 49px;
+    border: 1px solid blue;
+    border-radius: 12px;
+    background-color: white;
+    font-weight: bold;
+    font-size: large;
+    color: blue;
+}
+
+#botao2 {
+    width: 296px;
+    height: 49px;
+    border: 1px solid rgba(29, 83, 158, 1);
+    border-radius: 12px;
+    background-color: rgba(29, 83, 158, 1);
+    font-weight: bold;
+    font-size: large;
+    color: rgb(255, 255, 255);
+}
+
+.item2 {
+    width: 355px;
+    height: 490px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+.basico {
+    margin-top: -20px;
+    height: 76px;
+    background-color: rgba(255, 204, 41, 1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.basico .free {
+    color: blue;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 25px;
+}
+
+.item3 {
+    width: 355px;
+    height: 470px;
+    background-color: white;
+    border-radius: 10px;
+}
